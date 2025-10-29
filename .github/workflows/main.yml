@@ -5,3 +5,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - run: pip install scipy pint open_atmos_jupyter_utils matplotlib numpy
+      - uses: actions/checkout
+      - run: sudo apt-get install texlive-xetex inkscape pandoc
+      - run: pip install nbconvert
+      - run: puthon -m nbconvert --to pdf --execute Lab1-testy.ipynb
+      - uses: actions/upload-artifact
+        with: 
+          path: Lab1-testy.pdf

@@ -9,7 +9,7 @@ jobs:
       - run: sudo apt-get install texlive-xetex inkscape pandoc
       - run: pip install nbconvert
       #- run: puthon -m nbconvert --to pdf --execute mpdata_2d_numpy_only.ipynb
-      - run: puthon -m nbconvert -execute mpdata_2d_numpy_only.ipynb
+      - run: puthon -m nbconvert --execute mpdata_2d_numpy_only.ipynb
       - uses: actions/upload-artifact@v4
         with: 
           path: anim.gif

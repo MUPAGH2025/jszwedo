@@ -8,9 +8,10 @@ jobs:
       - uses: actions/checkout@v4
       - run: sudo apt-get install texlive-xetex inkscape pandoc
       - run: pip install nbconvert ipykernel
-      - run: python -m nbconvert --to pdf --execute mpdata_2d_numpy_only.ipynb
+      #- run: python -m nbconvert --to pdf --execute mpdata_2d_numpy_only.ipynb
       - uses: actions/upload-artifact@v4
         with: 
           path: |
-            anim.gif 
-            mpdata_2d_numpy_only.pdf
+            MUP_Projekt_Jan_Szwedo.pdf
+            MUP_Projekt_Jan_Szwedo.ipynb
+            

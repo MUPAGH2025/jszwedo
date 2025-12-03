@@ -1,4 +1,4 @@
-name: sprawozdanie
+name: projekt
 on: push
 jobs:
   pdf:
@@ -19,5 +19,5 @@ jobs:
             tanges_N_3.gif
             tsunami_N_3_44.svg
             tsunami_N_2_39s.svg
-
+            tsunami_N_1_48.svg
             

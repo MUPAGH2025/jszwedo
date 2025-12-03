@@ -1,4 +1,4 @@
-name: projekt
+name: Projekt
 on: push
 jobs:
   pdf:
@@ -14,7 +14,6 @@ jobs:
           path: |
             MUP_Projekt_Jan_Szwedo_Sprawozdanie.pdf
             MUP_Projekt_Jan_Szwedo.ipynb
-            liniowa_N_1.gif
             eksponencjalna_N_2.gif
             tangens_N_3.gif
             tsunami_tangens_N_3.svg

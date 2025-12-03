@@ -12,7 +12,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with: 
           path: |
-            MUP_Projekt_Jan_Szwedo.pdf
+            MUP_Projekt_Jan_Szwedo_Sprawozdanie.pdf
             MUP_Projekt_Jan_Szwedo.ipynb
             liniowa_N_1.gif
             eksponecjalna_N_2.gif

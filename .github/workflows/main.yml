@@ -12,12 +12,17 @@ jobs:
       - uses: actions/upload-artifact@v4
         with: 
           path: |
-            MUP_Projekt_Jan_Szwedo_Sprawozdanie.pdf
-            MUP_Projekt_Jan_Szwedo.ipynb
-            liniowa_N_1.gif
-            eksponencjalna_N_2.gif
-            tangens_N_3.gif
-            tsunami_tangens_N_3.svg
-            tsunami_eksponencjalna_N_2.svg
-            tsunami_liniowa_N_1.svg
+            Jan_Szwedo_Projekt_MUP_Sprawozdanie
+            Jan_Szwedo_MUP_Projekt.ipynb
+            liniowa_N_1_anim.gif
+            eksponencjalna_N_2_anim.gif
+            tangens_N_3_anim.gif
+            h_od_dx_dla_różnego_N.png
+            h_od_dt_dla_różnego_N.png
+            tsunami_N_1_21_dt_0.08_dx_5.0.png
+            tsunami_N_2_40_dt_0.08_dx_5.0.png
+            tsunami_N_3_45_dt_0.08_dx_5.0.png
+
+            
+
             

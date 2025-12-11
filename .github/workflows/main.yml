@@ -12,7 +12,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with: 
           path: |
-            Jan_Szwedo_Projekt_MUP_Sprawozdanie
+            Jan_Szwedo_Projekt_MUP_Sprawozdanie.pdf
             Jan_Szwedo_MUP_Projekt.ipynb
             liniowa_N_1_anim.gif
             eksponencjalna_N_2_anim.gif
@@ -22,7 +22,11 @@ jobs:
             tsunami_N_1_21_dt_0.08_dx_5.0.png
             tsunami_N_2_40_dt_0.08_dx_5.0.png
             tsunami_N_3_45_dt_0.08_dx_5.0.png
-
+            h_od_dx_dla_różnego_N.svg
+            h_od_dt_dla_różnego_N.svg
+            tsunami_N_1_21_dt_0.08_dx_5.0.svg
+            tsunami_N_2_40_dt_0.08_dx_5.0.svg
+            tsunami_N_3_45_dt_0.08_dx_5.0.svg
             
 
             
